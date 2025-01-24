@@ -39,17 +39,17 @@ def inspect_datasets():
     """
     # Dataset file paths
     datasets = {
-        "Train Dataset": "src/datasets/UNSW_NB15_training-set.csv",
-        "Test Dataset": "src/datasets/UNSW_NB15_testing-set.csv",
-        "Ground Truth Dataset": "src/datasets/NUSW-NB15_GT.csv",
+        "Train Dataset": "../datasets/UNSW_NB15_training-set.csv",
+        "Test Dataset": "../datasets/UNSW_NB15_testing-set.csv",
+        "Ground Truth Dataset": "../datasets/NUSW-NB15_GT.csv",
     }
 
     # Full dataset parts
     full_dataset_parts = [
-        "src/datasets/UNSW-NB15_1.csv",
-        "src/datasets/UNSW-NB15_2.csv",
-        "src/datasets/UNSW-NB15_3.csv",
-        "src/datasets/UNSW-NB15_4.csv",
+        "../datasets/UNSW-NB15_1.csv",
+        "../datasets/UNSW-NB15_2.csv",
+        "../datasets/UNSW-NB15_3.csv",
+        "../datasets/UNSW-NB15_4.csv",
     ]
 
     # Inspect pre-split datasets
