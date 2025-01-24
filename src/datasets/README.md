@@ -36,6 +36,26 @@ This folder does not contain the actual `.csv` files of the dataset but serves a
 
 ---
 
+## **How to Explore the Dataset**
+To get an overview of the dataset, you can run the `data_exploration.py` script.
+
+### **Steps**:
+1. **Navigate to the Project Directory**:
+   Open a terminal and navigate to the directory containing the `data_exploration.py` script:
+   ```bash
+   cd <path to project>/src/utils
+   ```
+2. **Execute the script using Python:**
+    ```bash
+    python dataset_overview.py
+    ```
+3. **The script will display the following:**
+    ```text
+    - Column names for each dataset.
+    - Shapes of the datasets (rows and columns).
+    - Total rows in the combined full dataset parts.
+    ```
+
 ## **Contact for More Information**
 For inquiries or access to additional data files (e.g., PCAP files), contact:
 - **Nour Moustafa**  
