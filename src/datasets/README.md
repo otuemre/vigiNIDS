@@ -37,11 +37,11 @@ This folder does not contain the actual `.csv` files of the dataset but serves a
 ---
 
 ## **How to Explore the Dataset**
-To get an overview of the dataset, you can run the `data_exploration.py` script.
+To get an overview of the dataset, you can run the `data_overview.py` script.
 
 ### **Steps**:
 1. **Navigate to the Project Directory**:
-   Open a terminal and navigate to the directory containing the `data_exploration.py` script:
+   Open a terminal and navigate to the directory containing the `data_overview.py` script:
    ```bash
    cd <path to project>/src/utils
    ```
