@@ -8,6 +8,7 @@ import xgboost
 import lightgbm
 import catboost
 import joblib
+import torch
 
 # Print package versions
 print("NumPy version:", np.__version__)
@@ -20,3 +21,4 @@ print("XGBoost version:", xgboost.__version__)
 print("LightGBM version:", lightgbm.__version__)
 print("Catboost version:", catboost.__version__)
 print("Joblib version:", joblib.__version__)
+print("PyTorch version:", torch.__version__)
