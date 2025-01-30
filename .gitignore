@@ -31,6 +31,12 @@ build/
 *.tsv
 *.json
 
+# Images
+./src/images/*
+
+# Catboost Infor
+./src/notebooks/catboost_info
+
 # Logs and temporary files
 *.log
 *.tmp
