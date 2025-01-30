@@ -6,6 +6,8 @@ import sklearn
 import notebook
 import xgboost
 import lightgbm
+import catboost
+import joblib
 
 # Print package versions
 print("NumPy version:", np.__version__)
@@ -16,3 +18,5 @@ print("Scikit-learn version:", sklearn.__version__)
 print("Jupyter Notebook version:", notebook.__version__)
 print("XGBoost version:", xgboost.__version__)
 print("LightGBM version:", lightgbm.__version__)
+print("Catboost version:", catboost.__version__)
+print("Joblib version:", joblib.__version__)
