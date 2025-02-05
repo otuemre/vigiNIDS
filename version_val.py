@@ -9,6 +9,7 @@ import lightgbm
 import catboost
 import joblib
 import torch
+import optuna
 
 # Print package versions
 print("NumPy version:", np.__version__)
@@ -22,3 +23,4 @@ print("LightGBM version:", lightgbm.__version__)
 print("Catboost version:", catboost.__version__)
 print("Joblib version:", joblib.__version__)
 print("PyTorch version:", torch.__version__)
+print("Optuna version:", optuna.__version__)
